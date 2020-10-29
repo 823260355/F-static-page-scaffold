@@ -5,8 +5,38 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
+}
+
+.header {
+  display: flex;
+  background-color: #3b5998;
+  color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  margin-left: 250px;
+  align-items: center;
+}
+
+.register-button {
+  margin-left: 15px;
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  margin-top: 5px;
+}
+
+.join-facebook {
+  margin-right: 250px;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+  border: none;
 }
 
 * {
