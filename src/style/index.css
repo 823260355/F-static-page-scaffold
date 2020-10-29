@@ -39,12 +39,32 @@ body {
   border: none;
 }
 
-* {
-  box-sizing: border-box;
+.content {
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.articles {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+}
+
+article {
+  background-color: white;
+  width: 500px;
+}
+
+.articles figcaption {
+  color: gray;
+}
+
+.articles button {
+  margin-top: 30px;
+  border: 1px solid rgb(197, 191, 191);
+}
+
+* {
+  box-sizing: border-box;
 }
